@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1546204628</fileChecksum>
+  <configuration>
+    <name>FlashROM</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_cbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_cbtimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_bufmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\npi\stack\npi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\comdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_bufmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal.c</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_memory_icall.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\hci_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\icall\inc\icall_apimsg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\cc26xx\mb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\TRNGCC26XX.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_aon_sysctl.h</file>
+      <file>$PROJ_DIR$\FlashROM\List\simple_peripheral_cc2650em_stack.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\blelib\host\host_pxxx.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_clock.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_rat.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_rfc_rat.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_bufmgr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_fcfg1.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_trng.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\cpu.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gap.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_pwrmgr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\npi\stack\npi.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_cbtimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\hci_tl.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\sm_ecc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\ble_rom_releases\04242014\ble_rom_patch.symbols</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_vims.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\ioc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\aes\cc26xx\aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ble.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_snv_wrapper.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_trng_wrapper.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\blelib\ctrl\cc2640\cc2640_ctrl_pxxx.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\gattservapp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_flash_wrapper.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Exe\simple_peripheral_cc2650em_stack.hex</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\icall_startup.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_snv_wrapper.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_trng_wrapper.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_privacy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_timer_drift.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\nv\nvintf.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_pwrmgr.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_bufmgr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\icall\src\inc\icall.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_icall_ble.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\onboard.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\blelib\hci_tl\cc26xx\cc26xx_hci_tl_none.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\r1\rom_init.c</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gapbondmgr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\gapgattserver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\trng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\icall\stack\ble_user_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\config\build_components.opt</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\profiles\roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\examples\simple_peripheral\cc26xx\stack\osal_icall_ble.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\rom_jt.c</file>
+      <file>$PROJ_DIR$\build_config.opt</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\onboard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\host\sm_ecc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\host\gattservapp_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\profiles\roles\gapbondmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\iar\cc26xx_stack.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\profiles\roles\gap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\onboard.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\icall_startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\cc26xx\_hal_types.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\rom_jt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\ecc_rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\aes\cc26xx\aes_ccm_api.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\npi\src\inc\npi_ble.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\trng_api.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ble_user_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\nv\cc26xx\nvocop.c</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_memory_icall.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\map_direct.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\nv\cc26xx\nvocop.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_wl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\icall\inc\ble_user_config.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_assert.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_clock.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ble_dispatch.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\hci_data.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\hal_flash_wrapper.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ble_dispatch.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\sm_ecc.o</file>
+      <file>$PROJ_DIR$\FlashROM\Exe\simple_peripheral_cc2650em_stack.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\services\src\aes\cc26xx\ccm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_scheduler.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_timers.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_cpu_scs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\systick.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\r1\common_rom_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_ioc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_enc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_chip_def.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_timers.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\rom_jt.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\hci_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_tasks.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gap.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\cc26xx\pwrmon.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll_user_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\rom\rom_jt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\vims.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_icall_ble.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\icall_startup.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\onboard.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_flash.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\cc26xx\rf_hal.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gapbondmgr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\inc\hw_rfc_dbell.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\osal_cbtimer.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ble_user_config.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\tirtos_cc13xx_cc26xx_2_20_01_08\products\cc26xxware_2_24_02_17393\driverlib\bin\iar\driverlib.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_pwrmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_pwrmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\mcu\cc26xx\osal_snv_wrapper.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_memory_icall.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\inc\osal_clock.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\gap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\gatt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\gatt_uuid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_trng_wrapper.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\att.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\hci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\common\hal_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_trng_wrapper.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\icall\stack\ble_dispatch.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_key.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\inc\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_flash_wrapper.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\icall\inc\ble_dispatch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\l2cap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\inc\linkdb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\src\controller\cc26xx\inc\ll.h</file>
+      <file>$PROJ_DIR$\..\config\lib_linker.cmd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 6 61 96 106 149 19 172 47 108 150 188 174 17 130 90 94 107 15 135 145 93 44 163 3 67 184 71 53 175 180 132 138 40 139 33 129 156 30 88 52 22 134 10 128 186 21 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 6 71 94 96 135 47 107 150 15 108 53 174 184 175 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188 90 186 3 21 166 88 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_cbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 149 61 94 10 47 156 145 108 150 174 71 93 44 33 111 52 163 180 21 135 107 15 96 17 106 130 19 30 143 2 6 88 67 53 188 128 132 138 40 129 134 144 3 139 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 3 21 135 47 107 150 15 108 53 6 71 94 96 174 166 88 67 149 10 128 188 143 180 145 130 111 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 2 144</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_bufmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 96 149 107 135 3 40 21 15 47 108 71 132 111 93 61 7 166 150 174 94 10 180 130 138 67 139 19 90 6 88 53 188 128 186 145 106 44 22 163 33 129 52 156 30 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 3 21 135 47 107 150 15 108 53 6 71 94 96 174 166 88 67 149 10 128 188 90 180 145 130 111 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 186 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\npi\stack\npi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 135 144 150 3 149 47 36 166 102 94 96 107 108 15 21 10 53 6 88 67 174 188 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 71 94 96 135 47 107 150 15 108 53 102 3 21 6 174 166 88 67 149 10 128 188 36 144</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174 135 130 108 150 93 132 111 96 90 71 67 143 47 180 17 40 163 184 168 107 15 94 175 138 149 61 19 6 3 166 172 103 128 18 53 188 145 106 44 156 30 88 100 139 33 129 52 22 134 10 21 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 100 135 47 107 150 15 108 53 128 18 6 71 94 96 174 184 175 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 188 3 21 166 88 143 168 172 90 186 103</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\icall\stack\ble_user_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 195 108 150 67 96 188 6 149 135 116 94 107 15 174 71 144 88 10 148 194 53 158 3 21 166 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 71 94 96 135 47 107 150 15 108 53 148 116 194 188 174 158 195 144 6 3 21 166 88 67 149 10 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\examples\simple_peripheral\cc26xx\stack\osal_icall_ble.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 96 106 111 182 79 128 195 2 135 174 19 61 166 3 144 143 17 145 163 129 52 22 158 180 197 176 38 194 10 53 47 94 93 44 130 33 134 6 120 71 169 177 51 116 188 107 108 150 15 132 138 40 67 139 156 30 21 183 88 181 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 67 149 96 135 47 107 150 15 108 53 10 128 188 71 94 174 180 145 130 111 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 3 21 6 166 88 143 169 197 144 2 195 176 183 182 79 177 181 38 120 142 51 116 194 158</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\rom\rom_jt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 94 179 63 17 19 148 45 3 97 15 40 61 93 30 96 47 43 111 152 11 197 174 107 135 139 71 132 130 149 156 194 188 115 144 168 158 92 136 60 108 150 180 138 67 21 6 142 116 126 46 137 28 151 133 90 166 7 38 14 134 41 27 53 113 186 145 106 44 33 129 52 22 31 98 73 10 128 88 182 120 76 160 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 73 144 6 71 94 96 135 47 107 150 15 108 53 174 111 149 139 151 113 90 180 145 130 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188 186 3 21 166 88 168 7 152 43 38 182 197 120 142 179 76 31 14 160 158 137 148 116 194 11 92 126 97 41 136 115 63 46 27 28 60 133 45 125 98</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\onboard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 149 145 71 186 17 93 135 174 96 184 191 106 130 88 3 6 53 47 61 44 33 134 90 175 94 107 108 150 15 180 132 138 40 67 139 19 163 129 52 22 10 128 144 156 30 188 21 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 144 6 71 94 96 135 47 107 150 15 108 53 174 90 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188 186 3 21 166 88 175 191 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\host\sm_ecc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 108 15 151 174 107 135 166 96 182 47 150 21 6 188 197 144 3 183 71 53 88 67 149 10 128 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 144 6 71 94 96 135 47 107 150 15 108 53 174 3 21 166 88 67 149 10 128 188 182 197 183 151 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\host\gattservapp_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 94 144 67 174 107 135 6 47 149 177 96 108 150 181 88 10 196 51 71 53 3 21 166 188 128 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 144 6 71 94 96 135 47 107 150 15 108 53 174 196 177 3 21 166 88 67 149 10 128 188 181 195 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\profiles\roles\gapbondmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 75 169 135 67 144 195 177 71 6 47 149 108 197 183 182 53 88 10 196 178 51 79 174 94 96 107 150 15 21 166 188 128 181 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 144 6 71 94 96 135 47 107 150 15 108 53 174 3 21 166 88 67 149 10 128 188 169 195 183 182 197 196 177 181 178 51 75 79 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\profiles\roles\gap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135 53 47 166 96 6 3 144 183 71 21 188 176 174 94 107 108 150 15 88 67 149 10 128 182 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 144 6 71 94 96 135 47 107 150 15 108 53 174 176 3 21 166 88 67 149 10 128 188 183 182 197</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\common\cc26xx\icall_startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 53 47 113 135 151 10 67 94 96 107 108 150 15 149 188 128 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 71 94 96 135 47 107 150 15 108 53 151 113 67 149 10 128 188 174</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FlashROM\Exe\simple_peripheral_cc2650em_stack.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 198 87 119 162 146 159 56 117 121 49 154 157 155 99 66 37 26 68 9 65 58 140 141 123 24 50 72 42 165 32 69 25 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_pwrmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 135 44 93 53 47 96 88 145 61 111 106 21 3 71 186 174 17 130 19 134 128 90 143 168 67 94 107 108 150 15 180 132 138 40 139 33 163 129 52 22 10 166 6 156 30 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 6 71 94 96 135 47 107 150 15 108 53 174 90 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188 186 3 21 166 88 143 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\mcu\cc26xx\osal_snv_wrapper.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 47 40 149 174 111 169 180 17 108 150 131 93 71 132 19 61 10 128 6 94 107 15 135 100 147 152 175 130 138 67 145 163 129 52 22 109 53 192 3 188 114 18 184 106 44 139 33 134 88 43 156 30 21 166 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 169 71 94 96 135 47 107 150 15 108 53 109 100 128 18 192 184 175 180 174 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 188 131 147 3 21 6 166 88 152 43 114 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_memory_icall.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 188 47 96 15 135 166 174 94 107 6 3 67 71 150 21 128 53 88 149 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 6 71 94 96 135 47 107 150 15 108 53 174 3 21 166 88 67 149 10 128 188</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\osal\src\common\osal_timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 47 53 93 61 149 128 135 44 130 185 145 111 174 188 3 71 186 17 106 96 19 21 184 90 88 172 94 107 108 150 15 180 132 138 40 67 139 33 163 129 52 22 10 166 6 156 30 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 6 71 94 96 135 47 107 150 15 108 53 174 90 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188 186 3 21 166 88 185 184 175 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\common\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 145 71 135 93 132 130 19 180 17 40 139 33 52 22 163 184 53 47 175 96 138 67 149 129 61 10 174 94 107 108 150 15 188 106 44 134 128 156 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 188 71 94 96 135 47 107 150 15 108 53 174 184 175 180 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_trng_wrapper.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135 96 111 130 179 149 53 47 19 33 11 139 107 108 150 15 94 93 163 145 71 76 31 61 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 111 96 135 47 107 150 15 108 53 149 139 11 179 71 94 76 31 93 130 19 61 145 33 129 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\icall\stack\ble_dispatch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 188 36 177 12 135 182 6 88 3 144 142 183 38 75 13 53 47 71 67 96 158 7 176 178 196 51 79 194 104 151 94 107 108 150 15 174 21 166 128 195 197 169 149 10 181 120 20 126 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 169 71 94 96 135 47 107 150 15 108 53 7 183 144 6 174 3 21 166 88 67 149 10 128 188 182 197 176 177 181 195 178 38 120 142 196 36 51 75 79 12 194 13 104 20 41 158 126 151 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\src\components\hal\src\target\_common\hal_flash_wrapper.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 111 96 188 17 47 149 174 108 150 61 10 106 145 163 129 135 40 93 44 107 15 139 130 33 52 22 71 175 180 132 138 67 53 94 134 128 184 156 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 82 184 175 180 96 135 47 107 150 15 108 53 174 71 94 145 130 111 149 139 17 93 132 19 61 33 129 163 138 52 106 40 156 22 30 44 134 67 10 128 188</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23 124</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
